@@ -1,5 +1,5 @@
 # AUsenseR-mc_multiple-randomization
-This repository contains a small JavaScript snippet for AUsenseR / formr that randomises the **display order** of answer options in `mc_multiple` items.
+This repository contains a small JavaScript snippet for AUsenseR / formr that randomises the **display order** of answer options in `mc_multiple` and `mc_button` widgets.
 
 It is **opt-in**: only items explicitly marked in the survey sheet are affected.
 
@@ -7,7 +7,7 @@ It is **opt-in**: only items explicitly marked in the survey sheet are affected.
 
 formr does not provide a built-in way to randomise the order of answer options inside `mc_multiple` (and similar multiple choice widgets). This script:
 
-- randomises answer options **within** a question
+- randomises answer options **within** a mc widget
 - keeps selected options **last**
 - preserves saved values (it only reorders existing DOM nodes)
 
@@ -15,7 +15,7 @@ formr does not provide a built-in way to randomise the order of answer options i
 
 ### 1) Survey sheet: opt-in with `mc_multiple_rand`
 
-In your survey spreadsheet, add `mc_multiple_rand` to the `class` column **only for items you want randomised**.
+In your survey spreadsheet, add `mc_multiple_rand` to the `class` column **only for mc widgets you want randomised**.
 
 Example:
 
