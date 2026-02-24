@@ -35,16 +35,17 @@ Add one or more `last__...` tokens in the `class` column. Please note that it us
 Examples:
 
 Keep one option fixed as last:
-`mc_vertical label_align_left mc_multiple_rand last__ingen_af_ovenstaaende`
+`mc_multiple_rand last__ingen_af_ovenstaaende`
 
 Keep two options fixed as last (order respected):
-`mc_vertical label_align_left mc_multiple_rand last__ingen_af_ovenstaaende last__alle`
+`mc_multiple_rand last__ingen_af_ovenstaaende last__alle`
 
 Randomise everything (no fixed last options):
-`mc_vertical label_align_left mc_multiple_rand`
+`mc_multiple_rand`
 
-### 3) Run: paste the JavaScript
+### 3) Run: paste the JavaScript in settings
 
-In AUsenseR/formr:
+Navigate to your run in AUsenseR/formr and paste the JavaScript: 
+`Runs → [The run] → Configuration: Settings → JS`
 
 `Run → Special settings → JavaScript`
